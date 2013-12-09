@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51" started-at="2013-12-09T07:25:21Z" finished-at="2013-12-09T07:25:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51" started-at="2013-12-09T07:25:21Z" finished-at="2013-12-09T07:25:21Z">
+      <class name="testWordpress.Test_post">
+        <test-method status="PASS" signature="NavigateToPostPage()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="NavigateToPostPage" is-config="true" duration-ms="13" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToPostPage -->
+        <test-method status="PASS" signature="VerifyExecutionStatus()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="VerifyExecutionStatus" is-config="true" duration-ms="1" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExecutionStatus -->
+        <test-method status="PASS" signature="AddNewPost()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="AddNewPost" duration-ms="4" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewPost -->
+        <test-method status="PASS" signature="WriteStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="WriteStatusToExcel" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteStatusToExcel -->
+        <test-method status="PASS" signature="EditPost()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="EditPost" duration-ms="7" started-at="2013-12-09T14:25:21Z" depends-on-methods="testWordpress.Test_post.AddNewPost" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditPost -->
+        <test-method status="PASS" signature="VerifyExecutionStatus()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="VerifyExecutionStatus" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExecutionStatus -->
+        <test-method status="PASS" signature="WriteStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="WriteStatusToExcel" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteStatusToExcel -->
+        <test-method status="PASS" signature="VerifyExecutionStatus()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="VerifyExecutionStatus" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExecutionStatus -->
+        <test-method status="PASS" signature="ViewPost()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="ViewPost" duration-ms="1" started-at="2013-12-09T14:25:21Z" depends-on-methods="testWordpress.Test_post.EditPost" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewPost -->
+        <test-method status="PASS" signature="WriteStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="WriteStatusToExcel" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteStatusToExcel -->
+        <test-method status="PASS" signature="VerifyExecutionStatus()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="VerifyExecutionStatus" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExecutionStatus -->
+        <test-method status="PASS" signature="QuickEditPost()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="QuickEditPost" duration-ms="0" started-at="2013-12-09T14:25:21Z" depends-on-methods="testWordpress.Test_post.ViewPost" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuickEditPost -->
+        <test-method status="PASS" signature="WriteStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="WriteStatusToExcel" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteStatusToExcel -->
+        <test-method status="PASS" signature="VerifyExecutionStatus()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="VerifyExecutionStatus" is-config="true" duration-ms="1" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExecutionStatus -->
+        <test-method status="PASS" signature="TrashPost()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="TrashPost" duration-ms="3" started-at="2013-12-09T14:25:21Z" depends-on-methods="testWordpress.Test_post.QuickEditPost" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrashPost -->
+        <test-method status="PASS" signature="writeStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="writeStatusToExcel" is-config="true" duration-ms="1" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeStatusToExcel -->
+        <test-method status="PASS" signature="WriteStatusToExcel()[pri:0, instance:testWordpress.Test_post@fbf04a]" name="WriteStatusToExcel" is-config="true" duration-ms="0" started-at="2013-12-09T14:25:21Z" finished-at="2013-12-09T14:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteStatusToExcel -->
+      </class> <!-- testWordpress.Test_post -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
